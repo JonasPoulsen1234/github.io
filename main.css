@@ -1,0 +1,49 @@
+/* JUMBOTRON */
+.jumbotron {
+  position: relative;
+  padding: 0;
+  height: 350px;
+  overflow: hidden;
+  background: transparent;
+}
+
+
+.jumbotron-bg {
+  background: url("cover.jpg") no-repeat center center;
+  position: fixed;
+  width: 100%;
+  background-size:100%;
+  margin-top: 40px;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+
+/* ROW */
+.row {
+  margin-bottom: 0em;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
