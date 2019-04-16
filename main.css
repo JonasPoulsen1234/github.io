@@ -2,17 +2,13 @@
 .jumbotron {
   position: relative;
   padding: 0;
-  height: 350px;
   overflow: hidden;
   background: transparent;
 }
 
 
 .jumbotron-bg {
-  background: url("cover.jpg") no-repeat center center;
   position: fixed;
-  width: 100%;
-  background-size:100%;
   margin-top: 40px;
   top: 0;
   left: 0;
@@ -47,3 +43,13 @@ body {
   color:#fff;
   opacity:1;
 }
+
+.col-howtothrow{
+  padding:15px;
+}
+
+.col-practice
+{
+  padding: 15px;
+}
+

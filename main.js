@@ -1,7 +1,7 @@
-var jumboHeight = $('.jumbotron').outerHeight();
+var jumboHeight = $('#parallax-container');
 function parallax(){
     var scrolled = $(window).scrollTop();
-    $('.jumbotron-bg').css('height', (jumboHeight-scrolled) + 'px');
+    $('#parallax-img').css('height', (jumboHeight-scrolled) + 'px');
 }
 $(window).scroll(function(e){
     parallax();
@@ -61,4 +61,5 @@ $('#myModal').on('hide.bs.modal', function (e) {
   
 // document ready  
 });
+
 
