@@ -53,3 +53,36 @@ body {
   padding: 15px;
 }
 
+.team-collapse{
+  border-radius: 15px;
+  background: white;
+  margin-right: 13px;
+  margin-left: 13px;
+}
+
+.collapse-text{
+  padding:20px;
+}
+
+.circle-photo{
+  border-radius: 50%;
+  width: 100%;
+}
+
+.circle-photo:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.show_border[aria-expanded=true] {
+  padding: 5px;
+  background-color: red;
+  margin-bottom: 10px;
+}
