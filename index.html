@@ -21,8 +21,9 @@
 <!------ navigation bar big screen ----> 
 <!--
  <nav class="navbar sticky-top navbar-expand-sm bg-white navbar-white justify-content-center d-none d-sm-flex" >
+<div class="container">
 
-  <ul class="navbar-nav">
+  <ul class="navbar-nav ml-auto">
     <li class="nav-item">
       <a class="nav-link" href="#about"><b style="color:black">About Us</b></a>
     </li>
@@ -30,13 +31,16 @@
       <a class="nav-link" href="#teams"><b style="color:black">Teams</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#practice"><b style="color:black;margin-right:-100px;">Practice</b></a>
+      <a class="nav-link" href="#practice"><b style="color:black;">Practice</b></a>
     </li>
-
+</ul>
+    <a class="navbar-brand">
       <img src="logo.jpg" class="logo">
+    </a>
 
+  <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-      <a class="nav-link" href="#signup"><b style="color:black;margin-left:200px;">Sign Up</b></a>
+      <a class="nav-link" href="#signup"><b style="color:black;">Sign Up</b></a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#learntothrow"><b style="color:black">About Ultimate</b></a>
@@ -47,18 +51,84 @@
 
 
   </ul>
+</div>
 </nav>
 -->
-<!-- test nav bar-->
-<nav>
-  <a class="nav-text" href="">Home</a>
-  <a class="nav-text" href="">Artwork</a>
-  <div id="logo"><img src="logo.jpg"></div>
-  <a class="nav-text" href="">Responses</a>
-  <a class="nav-text" href="">Contact</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-white nav-fill w-100 sticky-top">
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><b style="color:black">About Us</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#teams"><b style="color:black">Teams</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#practice"><b style="color:black;">Practice</b></a>
+          </li>
+        </ul>
+    </div>
+    <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+        <a class="mx-auto" href="#header_image">
+            <img src="logo.jpg" class="rounded-circle" style="width: 50px; margin-right: 9px; padding-right: 9px;">
+        </a>
+    </div>
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+        <ul class="navbar-nav mr-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#signup"><b style="color:black;">Sign Up</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#learntothrow"><b style="color:black">About Ultimate</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_us"><b style="color:black">Contact Us</b></a>
+          </li>
+        </ul>
+    </div>
 </nav>
 
+<!-- test nav bar
+<nav class="navbar bg-faded">
+  <div class="container">
+    <ul class="nav navbar-nav pull-sm-left">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 4</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-logo mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="logo.jpg" class="logo"></a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav pull-sm-right">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 5</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 6</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+-->
+
+
+
+
 <!--- navigation bar small screen -->
+
+<!--
 <nav class="navbar sticky-top navbar-inverse navbar-static-top d-block d-sm-none" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -69,8 +139,10 @@
                     <span class="icon-bar"></span>
                 </button>
     </div>
+-->
 
     <!-- Collect the nav links, forms, and other content for toggling -->
+<!--   
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home</a></li>
@@ -83,42 +155,93 @@
   </div>
 </nav>
 
-
+-->
 
 
 
 
 
 <!-- Cover Parallax scrolling image -->
-
-<div class="continer-fluid">
+<section id="header_image">
+<div class="container">
+<div class="full-width-image">
+    <img src="cover.jpg" alt="">
+  </div>
+</div>
+</section>
+<!--- Test covers -->
+  <!--
+<div class="continer">
   <div class="row d-none d-sm-block">
-    <img class="img-fluid" style="width: 100%; max-height: 350px" src="cover.jpg">
+    <img style="width: 100%; max-height: 350px" src="cover.jpg">
   </div>
   <div class="row d-block d-sm-none">
     <img class="img-fluid" style="width: 100%; max-height: 200px" src="cover.jpg">
   </div>
 </div>
+-->
+
 <!-- <div class="jumbotron">
   <div class="jumbotron-bg"></div>
 </div> -->
 
 
 <!----- About section ------>
+<br><br>
+
+<section id="about">
+
+  <div class="container">
+    <div class="box_div">
+      <h1 class="box_title"> About Us </h1>
+
+      <p style="padding:10px;">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dapibus nisl. Sed pellentesque dui accumsan quam porta, sed consectetur tellus venenatis. Nullam feugiat eros non semper venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ac purus et dolor tristique mattis. Donec ullamcorper bibendum velit sed efficitur. Mauris semper pulvinar maximus. Sed accumsan placerat mi, nec maximus risus consectetur quis. Etiam id aliquam lorem. Morbi imperdiet mi et viverra sodales. Phasellus tristique, nibh scelerisque pellentesque rutrum, leo urna imperdiet erat, fermentum volutpat ipsum nunc nec</p>
+    </div>
+  </div>
+<!--
+<div class="container">
+    <aside id="info-block">
+      <section class="file-marker">
+              <div>
+                  <div class="box_title">
+                      <h1>About Us </h1>
+                  </div>
+                  <div class="box-contents">
+                      <div id="audit-trail">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dapibus nisl. Sed pellentesque dui accumsan quam porta, sed consectetur tellus venenatis. Nullam feugiat eros non semper venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ac purus et dolor tristique mattis. Donec ullamcorper bibendum velit sed efficitur. Mauris semper pulvinar maximus. Sed accumsan placerat mi, nec maximus risus consectetur quis. Etiam id aliquam lorem. Morbi imperdiet mi et viverra sodales. Phasellus tristique, nibh scelerisque pellentesque rutrum, leo urna imperdiet erat, fermentum volutpat ipsum nunc ne
+                      </div>
+
+                  </div>
+              </div>
+      </section>
+    </aside>
+  </div>
+-->
+<!--
 <section id="about">
 <br><br>
 <div class="container">
   <div class="row">
 
     <div class="col-md-12">
-      <h1 class="text-center">About Aarhus Ultimate</h1>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dapibus nisl. Sed pellentesque dui accumsan quam porta, sed consectetur tellus venenatis. Nullam feugiat eros non semper venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ac purus et dolor tristique mattis. Donec ullamcorper bibendum velit sed efficitur. Mauris semper pulvinar maximus. Sed accumsan placerat mi, nec maximus risus consectetur quis. Etiam id aliquam lorem. Morbi imperdiet mi et viverra sodales. Phasellus tristique, nibh scelerisque pellentesque rutrum, leo urna imperdiet erat, fermentum volutpat ipsum nunc ne
+      <h1 id="rtext" class="text-center">About Us</h1>
+
+      <p id=rcorners>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dapibus nisl. Sed pellentesque dui accumsan quam porta, sed consectetur tellus venenatis. Nullam feugiat eros non semper venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ac purus et dolor tristique mattis. Donec ullamcorper bibendum velit sed efficitur. Mauris semper pulvinar maximus. Sed accumsan placerat mi, nec maximus risus consectetur quis. Etiam id aliquam lorem. Morbi imperdiet mi et viverra sodales. Phasellus tristique, nibh scelerisque pellentesque rutrum, leo urna imperdiet erat, fermentum volutpat ipsum nunc ne </p>
 </div>
+-->
+
+</section>
 
 
+<span class="sexy_line"></span>
 
+
+<!--------------------------------------------- Teams section -------------------------------------------->
+<section id="teams">
 <div class="col-md-12">
-      <h3 class="text-center border-bottom">Teams</h3>
+      <h1 class="text-center">Teams</h1>
 </div>
 <div class="container" id=myGroup>
 <div class="row">
@@ -159,12 +282,14 @@
     </div>
   </div>
 </div>
-  <br><br>
 </section>
+
+
+<span class="sexy_line"></span>
+
 
 <!-------------------- Practice section ------------------>
 <section id="practice">
-<br><br>
 <div class="container">
 
 
@@ -217,6 +342,52 @@
   <br><br>
 </section>
 
+
+<span class="sexy_line"></span>
+<!--------------------------------- Sign up section -------------------------------------->
+
+<section id="signup">
+  <div class="container">
+    <div class="box_div" style="background: green; border-color: white; border: 15px solid white">
+      <h3 class="box_title h3_outer_circle" style="margin-top: -90px">
+
+      <h3 class="box_title h3_center_circle" style="margin-top: -173px">
+    <span> 
+        Sign Up</span>
+    </h3>
+
+    </h3>
+
+
+            <div class="col-sm-12" style="color:white;">
+
+
+      
+
+      <p style="color: white; padding-top: 30px;">
+              To become a member of Aarhus Ultimate you first need create an account at <a href="http://aarhusultimate.klub-modul.dk/" target="_blank"> Klub Modul </a> and pay the following subscribtions:
+        <br><br>
+        <dl>
+          <li>300 kr subscription each year.  </li>
+          <li>400 kr activity subscription* each season.</li>
+        </dl>
+        After paying the subscribtions send an email to
+        <a href = "mailto: kasserer@aarhusultimate.dk">kasserer@aarhusultimate.dk</a>
+        including your name and the day you payed the subscribtions.
+        <br><br>
+        Once the above standing is done. You are now a member of Aarhus Ultimate and you will recieve a text every time the subscribtion will be drawn.
+        <br><br>
+          * This subscription covers transport and players fee to all national and some international tournaments, among other things.
+        </p>
+        <br>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+
+<span class="sexy_line"></span>
 <!-------------------- Learn to throw section ------------->
 
 <section id="learntothrow" >

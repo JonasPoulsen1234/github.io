@@ -22,7 +22,7 @@ $('.nav-link').on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(hash).offset().top
+       scrollTop: $(hash).offset().top - 90
      }, 800, function(){
 
        // when done, add hash to url
