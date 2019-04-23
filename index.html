@@ -54,9 +54,15 @@
 </div>
 </nav>
 -->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-white nav-fill w-100 sticky-top">
-    <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+  <div class="container">
+
+      <button class="navbar-toggler navbar-toggler-right bg-dark" type="button" 
+                data-toggle="collapse" data-target="#bs-example-navbar-collapse-1, #bs-example-navbar-collapse-2">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0" id="bs-example-navbar-collapse-1">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item">
             <a class="nav-link" href="#about"><b style="color:black">About Us</b></a>
@@ -74,7 +80,7 @@
             <img src="logo.jpg" class="rounded-circle" style="width: 50px; margin-right: 9px; padding-right: 9px;">
         </a>
     </div>
-    <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2"  id="bs-example-navbar-collapse-2">
         <ul class="navbar-nav mr-auto text-center">
           <li class="nav-item">
             <a class="nav-link" href="#signup"><b style="color:black;">Sign Up</b></a>
@@ -87,6 +93,7 @@
           </li>
         </ul>
     </div>
+  </div>
 </nav>
 
 <!-- test nav bar
@@ -128,7 +135,7 @@
 
 <!--- navigation bar small screen -->
 
-<!--
+<!---
 <nav class="navbar sticky-top navbar-inverse navbar-static-top d-block d-sm-none" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -142,7 +149,7 @@
 -->
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-<!--   
+  <!--
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Home</a></li>
@@ -154,8 +161,8 @@
     </div>
   </div>
 </nav>
-
 -->
+
 
 
 
@@ -245,18 +252,18 @@
 </div>
 <div class="container" id=myGroup>
 <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6" >
                 <img src="dame.jpg" class="circle-photo btn show_border" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 
       </div>
 
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6">
                 <img src="herre.jpg" class="circle-photo btn show_border" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
       </div>
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6">
                 <img src="mix.jpg" class="circle-photo btn show_border" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
       </div>
-  <div class="col-md-3">
+  <div class="col-md-3 col-sm-6">
                 <img src="begynder.jpg" class="circle-photo btn show_border" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
       </div>
 </div>
@@ -295,7 +302,7 @@
 
     <div class="row">
     <div class="col-md-12">
-      <h1 class="text-center">Practice</h1>
+      <h1 class="text-center" style="padding: 10px;">Practice</h1>
     </div>
   </div>
   <div class="row">
@@ -477,46 +484,20 @@
 <br><br>
  
 <!-------------------- Contact us section ----------->
-<section id="contact_us" >
-  <br><br>
-  <div class="container">
-      <div class="row mb-4">
-      <div class="col-sm-6 border-right">
-        <h3 class="text-center"> Contact the board</h3>
-<br>
 
-<dl>
-        <li><b> Email:</b> JonasPoulsen123@gmail.com</li>
+<section id="contact_us">
+<div class="container-fluid" style="margin-right: 0px; margin-left: 0px; padding-right: 0px;padding-left: 0px;">
 
-        <li><b> Phone:</b> 1919191919</li>
+  <img class="img-fluid" style="width: 100%;" src="footer.jpg">
 
-        <li><b> Facebook:</b> www.facebook.com</li>
-</dl>
+  <div class="bottom-left" style="color: white;">Bottom Left</div>
+  <div class="bottom-right" style="color: black;">Top Right</div>
 
-      </div>
-      <div class="col-sm-6">
-        <h3 class="text-center"> Sign up as a member </h3>
-<br>
-        To become a member of Aarhus Ultimate you first need create an account at <a href="http://aarhusultimate.klub-modul.dk/" target="_blank"> Klub Modul </a> and pay the following subscribtions:
-        <br><br>
-        <dl>
-          <li>300 kr subscription each year.  </li>
-          <li>400 kr activity subscription* each season.</li>
-        </dl>
-        After paying the subscribtions send an email to
-        <a href = "mailto: kasserer@aarhusultimate.dk">kasserer@aarhusultimate.dk</a>
-        including your name and the day you payed the subscribtions.
-        <br><br>
-        Once the above standing is done. You are now a member of Aarhus Ultimate and you will recieve a text every time the subscribtion will be drawn.
-        <br><br>
-          * This subscription covers transport and players fee to all national and some international tournaments, among other things.
-        
-      </div>
-    </div>
-
-      <br><br>
-  </div>
+</div>
 </section>
+
+
+
   <script src="main.js"></script>
 
 </body>

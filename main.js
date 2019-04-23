@@ -12,6 +12,7 @@ $(document).ready(function () {
 });
 
 
+
 $('.nav-link').on('click', function(e) {
 
    // prevent default anchor click behavior
@@ -61,6 +62,7 @@ $('#myModal').on('hide.bs.modal', function (e) {
   
 // document ready  
 });
+
 
  
 

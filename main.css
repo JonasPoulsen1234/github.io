@@ -22,7 +22,9 @@
 
 body {
   background-color: lightgray;
+    overflow-x: hidden;
 }
+
 
 .modal-dialog {
       max-width: 800px;
@@ -55,7 +57,7 @@ body {
 
 .team-collapse{
   border-radius: 15px;
-  background: #ccc;
+  background: #EFFBEF;
   margin-right: 13px;
   margin-left: 13px;
 }
@@ -83,7 +85,7 @@ body {
 
 .show_border[aria-expanded=true] {
   padding: 5px;
-  background-color: #ccc;
+  background-color: #EFFBEF;
   margin-bottom: 10px;
 }
 
@@ -110,6 +112,10 @@ body {
   transform: translateX(-50%);
   left: 50%;
   position: relative;
+  margin:0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
 }
 
 li {
@@ -206,4 +212,13 @@ h3 span {
   width: 180px;
   height: 180px;
   position: relative;
+}
+
+.bottom-left {
+  position: relative;
+  bottom: 80px;
+}
+.bottom-right {
+  position: relative;
+  bottom: 8px;
 }
