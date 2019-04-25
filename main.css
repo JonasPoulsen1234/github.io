@@ -230,3 +230,7 @@ h3 span {
 
   cursor: pointer;
 }
+
+.video-btn:hover .img_blur {
+  opacity: 0.7;
+}
