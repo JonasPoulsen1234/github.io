@@ -1,30 +1,16 @@
-/* JUMBOTRON */
-.jumbotron {
-  position: relative;
-  padding: 0;
-  overflow: hidden;
-  background: transparent;
-}
 
-
-.jumbotron-bg {
-  position: fixed;
-  margin-top: 40px;
-  top: 0;
-  left: 0;
-  z-index: -999;
-}
 
 /* ROW */
 .row {
   margin-bottom: 0em;
 }
 
+/* BODY */
 body {
   background-color: lightgray;
 }
 
-
+/* MODAL FOR VIDEO PLAY */
 .modal-dialog {
       max-width: 800px;
       margin: 30px auto;
@@ -45,15 +31,18 @@ body {
   opacity:1;
 }
 
+/* PADDING FOR THROWING VIDEOS */
 .col-howtothrow{
   padding:15px;
 }
 
+/* PADDING FOR PRACTICE SECTION */
 .col-practice
 {
   padding: 15px;
 }
 
+/* COLLAPSE TEXT BOX */
 .team-collapse{
   border-radius: 15px;
   background: #EFFBEF;
@@ -61,20 +50,24 @@ body {
   margin-left: 13px;
 }
 
+/* COLLAPSE TEXT */
 .collapse-text{
   padding:20px;
 }
 
+/* TEAM CIRCLE PHOTO */
 .circle-photo{
   border-radius: 50%;
   width: 100%;
 }
 
+/* TEAM HOVER CIRCLE PHOTO */
 .circle-photo:hover{
   opacity: 0.7;
   cursor: pointer;
 }
 
+/* CENTER ELEMENT */
 .centered {
   position: absolute;
   top: 50%;
@@ -82,12 +75,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* COLLAPSE EXPAND BORDER */
 .show_border[aria-expanded=true] {
   padding: 5px;
   background-color: #0B610B;
   margin-bottom: 10px;
 }
 
+/* NAVBAR CENTER LOGO */
 .logo {
   transform: translateX(-50%);
   border-radius: 50%;
@@ -96,10 +91,12 @@ body {
   width: 90px; /* no height needed ... image will resize automagically */
 }
 
+/* PICTURE FOR NAVBAR CENTER LOGO */
 .navbar-logo {
   width: 90px;
 }ground-image: url("cover.jpg");
 
+/* FULL WIDTH CENTER ELEMENT */
 .full-width-image {
   position: relative;
   left: 50%;  
@@ -107,6 +104,7 @@ body {
 
 }
 
+/* IMAGE FOR FULL WITH CENTER */
 .full-width-image img {
   transform: translateX(-50%);
   left: 50%;
@@ -117,16 +115,18 @@ body {
   width: 100%;
 }
 
+/* LIST ELEMENT */
 li {
   margin: 0 9px 0 0;
   padding: 0 9px 0 0;
 }
 
+/* LIST LAST ELEMENT */
 li:last-child {
   border-right: none;
 }
 
-
+/* ROUNDED CORNERS */
 #rcorners {
   border-radius: 25px;
   border: 5px solid #73AD21;
@@ -136,18 +136,16 @@ li:last-child {
 
 }
 
-#info-block section {
-  border-radius: 25px;
-  border: 5px solid #0B610B;
-}
-
+/*
 .file-marker > div {
     padding: 0 3px;
     height: 200px;
     margin-top: -1.7em;
     
 }
+*/
 
+/* SIGN UP BOX */
 .box_div{
   width: fit-content;
   border: 5px solid #0B610B;
@@ -159,6 +157,7 @@ li:last-child {
 
 }
 
+/* SIGN UP BOX TITLE */
 .box_title {
     width: 190px;
     margin-top: -30px;
@@ -167,6 +166,7 @@ li:last-child {
     background: white;
 }
 
+/* SECTION SEPARATOR LINE */
 .sexy_line{ 
     margin-top:100px;
     margin-bottom:100px;
@@ -178,12 +178,7 @@ li:last-child {
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;   /* horizontal alignment */
-  align-items: center;              /* vertical alignment */
-}
-
+/* SIGN UP CIRCLE INSIDE */
 .h3_center_circle {
   background-color: white;
   border-radius: 50%;
@@ -194,6 +189,8 @@ nav {
   word-wrap: break-word;
   position: relative;
 }
+
+/* SIGN UP CIRCLE TEXT */
 h3 span {
   position: absolute;
   top: 50%;
@@ -203,6 +200,8 @@ h3 span {
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+/* SIGN UP OUTER CIRCLe */
 .h3_outer_circle {
   background-color: #0B610B;
   border-radius: 50%;
@@ -213,12 +212,15 @@ h3 span {
   position: relative;
 }
 
+/* PUT ELEMENT TO BOTTOM LEFt */
 .bottom-left {
   width: fit-content;
   position: relative;
   bottom: 80px;
   margin-left: 30px;
 }
+
+/* PUT ELEMENT TO BOTTOM RIGHT */
 .bottom-right {
   position: relative;
   position:right;
@@ -226,15 +228,17 @@ h3 span {
 
 }
 
+/* HOVER VIDEO ACTIVITY */
 .video-btn{
   cursor: pointer;
 }
 
+/* HOVER VIDEO BLUR */
 .video-btn:hover .img_blur {
   opacity: 0.7;
 }
 
-
+/* ICON IMPLEMENTATION FOR FACEBOOK AND INSTAGRAM */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -251,15 +255,19 @@ h3 span {
   color: white;
 }
 
+/* FACEBOOK */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
+
+/* INSTAGRAM */
 .fa-instagram {
   background: #125688;
   color: white;
 }
 
+/* LANGUAGE CHOICE BUTTONS */
 .language_buttons{
     top: 10px;
     right: 20px;
@@ -267,6 +275,7 @@ h3 span {
      z-index: 999;
 }
 
+/* NAVBAR */
 .navbar{
    z-index: 1;
 }
