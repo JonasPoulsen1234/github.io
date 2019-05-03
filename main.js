@@ -13,6 +13,8 @@ $(document).ready(function () {
 
 
 
+
+
 $('.nav-link').on('click', function(e) {
 
    // prevent default anchor click behavior
